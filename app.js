@@ -7,7 +7,7 @@ const lodash = require("lodash");
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://admin-aman:Albertcr7007@cluster0.ir7gf.mongodb.net/blogDB",
+  "mongodb+srv://<user-name>:<password>@cluster0.ir7gf.mongodb.net/blogDB",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
